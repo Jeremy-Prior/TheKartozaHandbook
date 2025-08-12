@@ -8,17 +8,17 @@ As a purely virtual company, communication skills are particularly important bec
 
 ## Communication Systems
 
-### Slack
+### Google Chat
 
-Slack is our primary communication mechanism. You should have slack running and available at all times during your work day. If you run mission critical systems (e.g. maintaining client web sites, server infrastructure), you should have slack on your phone so that we can contact you after hours in emergencies.
+Google Chat is our primary communication mechanism. You should have Google Chat running and available at all times during your work day. If you run mission critical systems (e.g. maintaining client web sites, server infrastructure), you should have Google Mail on your phone so that we can contact you after hours in emergencies.
 
-In some cases our clients have slack channels, which you should participate and monitor as needed to carry out your client related tasks.
+In some cases our clients have Google Chat spaces, which you should participate and monitor as needed to carry out your client related tasks.
 
-All staff members are at minumum members of the '1-kartoza'  and '4-random' channels. You should use 1-kartoza for **all your general communications**.
+All staff members are at minumum members of the **Kartoza Home** and **Kartoza Fun Room** spaces. You should use **Kartoza Home** for **all your general communications**.
 
-You might be tempted to use DMs (Direct Messages) to ask team mates for technical information, plan work etc. **Please don't do this!** Use the 1-kartoza channel for all communications unless it is something of a personal nature that you need to discuss with management.
+You might be tempted to use DMs (Direct Messages) to ask team mates for technical information, plan work etc. **Please don't do this!** Use the **Kartoza Home** space for all communications unless it is something of a personal nature that you need to discuss with management.
 
-Why do we ask you not to use DMs? Because when you communicate in the 1-kartoza channel that is public to the company, we realise a number of benefits:
+Why do we ask you not to use DMs? Because when you communicate in the **Kartoza Home** space that is public to the company, we realise a number of benefits:
 
 1. We can see what things you are working on.
 2. We can see you are actively working (which is often difficult in a virtual company).
@@ -26,7 +26,7 @@ Why do we ask you not to use DMs? Because when you communicate in the 1-kartoza 
 4. If you are stuck on something, project leads and management can be aware of which projects are having issues and plan accordingly.
 5. It creates a sense of 'togetherness' that is otherwise lost in a virtual company.
 
-For internal company communications, we have our lowest bar in Slack in terms of how much attention you need to pay to grammar and crafting beautiful prose.
+For internal company communications, we have our lowest bar in Google Chat in terms of how much attention you need to pay to grammar and crafting beautiful prose.
 
 ### Email
 
@@ -37,19 +37,7 @@ All Kartoza employees are issued with an email address ending in @kartoza.com. W
 Here is the signature in text form:
 
 ​
-![Logo](https://ci3.googleusercontent.com/proxy/6hvwfZ1QlZbFuxyb6WzOVNJGQF7bDrGZYswzub61gu0avvYCtQXgUkWt0ljsZtVrC3lq5SQex-4p4m8Ahq0a7Vwz2gOD3Zz5=s0-d-e1-ft#https://kartoza.com/files/KartozaNewLogoThumbnail.jpg)
-
-Tim Sutton
-Kartoza Co-Founder
-
-Visit <http://kartoza.com> to find out about open source:
-
-* Desktop GIS programming services
-* Geospatial web development
-* GIS Training
-* Consulting Services
-
-Tim is a member of the QGIS Project Steering Committee
+![Logo](https://kartoza.com/files/KartozaEmailSignature.gif)
 
 ----------------------------------------------------------
 
@@ -80,8 +68,8 @@ When attending a video / voice call, follow these guidelines:
 
 When you are communicating with colleagues, especially if it is something urgent you should follow this escalation procedure if you do not get the response you need:
 
-* Ask them in the original medium (email / slack / video call)
-* Follow up with a second medium (e.g. a nudge in slack to check email) if you do not get a timely response
+* Ask them in the original medium (email / chat / video call)
+* Follow up with a second medium (e.g. a nudge in chat to check email) if you do not get a timely response
 * Send a calendar invitation for a short meeting if you get no response.
 * Send the person a whatsapp / telegram etc.
 * Phone the person (mobile/whatsapp/telegram etc.)
