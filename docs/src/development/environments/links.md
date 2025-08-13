@@ -9,4 +9,4 @@ External resources, links, and recommendations fo development environment config
 ## SQL
 
 Use postgresql for everything. Dbeaver and Pgadmin are good tools.
-https://www.beekeeperstudio.io/
+[Beekeeper Studio](https://www.beekeeperstudio.io/).

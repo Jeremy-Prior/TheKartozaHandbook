@@ -2,7 +2,7 @@
 
 Please read and adhere to our [coding standards](./coding_standards.md) for all work.
 
-**Quick links**
+**Quick Links**
 
 - **IDEs** — recommended setups and plugins: [IDEs](./ides.md)
 - **Processes** — how we work day-to-day: [Processes](./dev_processes.md)
@@ -12,7 +12,7 @@ Please read and adhere to our [coding standards](./coding_standards.md) for all 
 
 ## Project Conventions
 
-- We follow SDLC / agile practices using scrum boards. See: [project processes](./project_processes.md)
+- We follow SDLC/agile practices using scrum boards. See: [project processes](./project_processes.md)
 - Use the project board for **issues**, **priorities**, and **status**.
 - Every task has: problem, acceptance criteria, owner, due date.
 
@@ -25,18 +25,23 @@ Please read and adhere to our [coding standards](./coding_standards.md) for all 
 
 ### Python
 - **Style:** PEP 8 where sensible (see coding standards).
-- **Lint/Format:** _TBD_ (e.g., ruff/flake8 + black) — see [coding standards](./coding_standards.md).
-- **Testing:** _TBD_ (e.g., pytest); aim for fast, isolated tests.
-- **Packaging:** _TBD_ (e.g., uv/pip + pyproject.toml).
+- **Lint/Format:** (e.g., `flake8` + `black`) — see [coding standards](./coding_standards.md).
+- **Testing:** (e.g., `pytest`); aim for fast, isolated tests.
+- **Packaging:** (e.g., `uv`/`pip` + `pyproject.toml`).
 
 ### JavaScript
 - **Style:** Align with project baseline.
-- **Lint/Format:** _TBD_ (e.g., eslint + prettier).
-- **Testing:** _TBD_ (e.g., vitest/jest + testing-library).
+- **Lint/Format:** (e.g., `eslint` + `prettier`).
+- **Testing:** (e.g., `vitest`/`jest` + Testing Library).
 - **Packages:** Lockfile committed; pinned major versions.
 
-### C++
+### TypeScript
+- **Style:** Align with project baseline; prefer explicit types where helpful.
+- **Lint/Format:** (e.g., `eslint` + `@typescript-eslint/*` + `prettier`).
+- **Testing:** (e.g., `vitest`/`jest` + Testing Library).
+- **Packages:** Lockfile committed; pinned major versions; publish with type declarations (`types` in `package.json`, `d.ts` or `tsc --emitDeclarationOnly`).
 
+### C++
 - **Style:** Follow the official **[QGIS C++ Coding Standards](https://docs.qgis.org/latest/en/docs/developers_guide/codingstandards.html)**
 - **Lint/Format:** Use `clang-format` with the QGIS profile; run `clang-tidy` in CI aligned with QGIS checks.
 - **Build/Test:** CMake; tests via QtTest/ctest.
@@ -46,7 +51,7 @@ Please read and adhere to our [coding standards](./coding_standards.md) for all 
 
 ## Minimal Working Agreements
 
-- **Naming:** lowercase-hyphen for files; snake_case for Python; camelCase for JS variables; PascalCase for types/classes.
+- **Naming:** kebab-case for files; snake_case for Python; camelCase for JS variables; PascalCase for types/classes.
 - **Docs:** one `# H1` per page; images in `docs/img/`; short alt text required.
 
 ---
@@ -54,11 +59,12 @@ Please read and adhere to our [coding standards](./coding_standards.md) for all 
 ## Tiny Checklists
 
 **Commit message**
+
 - `[scope]: concise summary`  
 - Body: what/why, not just how. Link issue: `Fixes #123`.
 
 **Pull request**
+
 - Problem & approach explained
 - Tests/Docs updated (if applicable)
-- Checklist passes (lint/format/ci)
-
+- Checklist passes (lint/format/CI)
