@@ -2,54 +2,55 @@
 
 Standardise on the frameworks used to encourage collaboration and efficiency.
 
-## Cross platform
+## Cross-platform
 
-- [QT](https://www.qt.io/product/framework) (multiple)
-- [React native](https://reactnative.dev/) (js)
-- [Flutter](https://flutter.dev/) (dart)
-- [Quasar](https://quasar.dev/) (js)
-- [Beeware](https://beeware.org/) (python)
-- [Kivy](https://kivy.org/) (python)
+- [Qt](https://www.qt.io/product/framework) — C++ / Python (PyQt / PySide)
+- [React Native](https://reactnative.dev/) — JavaScript / TypeScript
+- [Flutter](https://flutter.dev/) — Dart
+- [Quasar](https://quasar.dev/) — JavaScript, Vue-based
+- [BeeWare](https://beeware.org/) — Python
+- [Kivy](https://kivy.org/) — Python
 
 ## Desktop
 
-- See the cross platform section.
-- [tauri](https://tauri.studio) (js/ rust): Uses a rust backend and javascript frontend as a more performant alternative to electron, which bundles chromium into every build.
+- Prefer **Qt** for native apps.
+- [Tauri](https://tauri.studio) — JavaScript / Rust (Rust backend + JS frontend; alternative to Electron).
 
 ## Mobile
 
-If you're not going native, use the cross platform frameworks please.
+If you’re not going fully native, use a cross-platform framework.
 
 ## Web
 
-- Django (python): Default to django. It's batteries included.
-- Flask (python): Light weight python server
-- FastApi (python): It's shiny, but pretty great. If you're a fan of starlette and async, and you only want a REST API, FastApi is where you might want to head. 90% of the time, use django+drf, or extend flask (more of the team can help you out there too). If you have to ask if you should use it, you probably shouldn't.
-- Express (js): Serverside js.
-- NextJS (js): Serverside react.
-- Rails (ruby): If you are using or extending something in ruby (not recommended)
-- [tauri](https://tauri.studio): Uses a rust backend and javascript frontend as a more performant alternative to electron, which bundles chromium into every build.
+- **Preferred:** **Django (Python)** — batteries included; pair with **Django REST Framework** for APIs.
+- **Flask (Python):** lightweight microservice or gateway.
+- **FastAPI (Python):** async-first REST APIs; use when ASGI/async is needed.
+- **Express (JavaScript):** server-side Node.js.
+- **Next.js (JavaScript):** server-side React.
 
 ## Docs
 
-Use Material Mkdocs
+Use **Material for MkDocs** for project documentation.
 
 ## Jamstack
 
-Default to Hugo.
+Default to **Hugo**.
 
 ## GIS
 
-OpenLayers, Leaflet, and CesiumJS. Turf.js, MapLibre. GeoDjango. pg_featureserv/ pg_tilserv.
+- **Frontend:** MapLibre GL JS, OpenLayers, Leaflet, CesiumJS, Turf.js
+- **Backend:** GeoDjango, pg_featureserv, pg_tileserv
 
 ## UI
 
-Ensuring that consistent UI component libraries are used improves quality, efficiency, and consistency across applications and the overall UX.
+Consistent component libraries improve quality and speed.
 
 ### CSS frameworks
-
-Bootstrap, bulma, tailwind
+- **Bootstrap**
+- **Bulma**
+- **Tailwind CSS**
 
 ### Component libraries
+- **React (web):** Chakra UI or Material UI
 
-Nobody will stop you from starting an app in kotlin, but it's unlikely to get the momentum or collaboration that is desired within the organisation.
+> Choosing outside these defaults is possible, but expect lower momentum and fewer collaborators. Document rationale in the project README.

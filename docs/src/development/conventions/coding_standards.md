@@ -2,27 +2,28 @@
 
 ## General Approach
 
-* Use github for revision control, issue tracking and management and use the recommended workflow below whenever possible:
- * Create new Ticket on https://github.com/<org>/<repo>/issues/new
-  * Fill in the needed information and description
-  * Assign yourself
-  * Note ticket number
- * Fork InaSAFE (if not already done)
-  * Create new branch called fix-yourticketnumber in your fork
-  * Implement feature
-  * Pull request your branch into InaSAFE Develop
-  * Develop must always pass test and code compliance
+- Use github for revision control, issue tracking and management and use the recommended workflow below whenever possible:
 
-* Adherence to regression/unit testing wherever possible (`make test`) with a minimum code coverage of 80%.
-* Simple deployment procedure - all dependencies must be delivered with
+    1. Create new Ticket on `https://github.com/<org>/<repo>/issues/new`
+    2. Fill in the needed information and description
+    3. Assign yourself
+    4. Note ticket number
+    5. Fork InaSAFE (if not already done)
+    6. Create new branch called `fix-yourticketnumber` in your fork
+    7. Implement feature
+    8. Pull request your branch into InaSAFE Develop
+    9. Develop must always pass test and code compliance
+
+- Adherence to regression/unit testing wherever possible (`make test`) with a minimum code coverage of 80%.
+- Simple deployment procedure - all dependencies must be delivered with
   the plugin installer for QGIS or exist in standard QGIS installs.
-* Develop in the spirit of XP/Agile, i.e. frequent releases, continuous
+- Develop in the spirit of XP/Agile, i.e. frequent releases, continuous
   integration and iterative development. The master branch should always
   be assumed to represent a working demo with all tests passing.
-* If a method or function is longer than a single screen, it is probably a
+- If a method or function is longer than a single screen, it is probably a
   candidate for refactoring into smaller methods / functions. Writing smaller
   methods makes your code easier to read and to test.
-* If you use a few lines of code in more than one place, refactor them into
+- If you use a few lines of code in more than one place, refactor them into
   their own function.
 
 ## Platform support for QGIS plugins
